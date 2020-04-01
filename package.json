@@ -1,9 +1,9 @@
 {
-	"name": "@mmstudio/base",
+	"name": "@mmstudio/wxapp",
 	"version": "1.0.0",
-	"description": "$desc",
+	"description": "feidao framework for weixin app",
 	"scripts": {
-		"test": "tsc && ava ./tests/*.js",
+		"test": "tsc -w",
 		"watch": "tsc -w & ava --watch ./tests/*.js",
 		"clean": "del-cli ./dist/",
 		"lint": "eslint ./src/**/*.ts",
@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "https+git",
-		"url": "https://github.com/mm-core/base.git"
+		"url": "https://github.com/mm-core/wxapp.git"
 	},
 	"main": "dist/index.js",
 	"module": "dist/index.js",
@@ -29,8 +29,8 @@
 		"框架"
 	],
 	"author": {
-		"name": "$user",
-		"email": "$email@xxx.com"
+		"name": "taoqf",
+		"email": "tao_qiufeng@126.com"
 	},
 	"maintainers": [
 		{
@@ -41,6 +41,7 @@
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
+		"@types/weixin-app": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",

@@ -1,28 +1,8 @@
-# Base
+# 微信小程序
 
-## Projects
+## 基本功能
 
-- amd
-	- on
-	- global
-	- web
-- cjs
-	- config
-	- invoke
-	- server
-
-## Branches
-
-- amd
-	- tpl
-		- tpl-web
-		- tpl-wxapp
-		- tpl-mobile
-	- atom-web
-	- atom-wxapp
-	- widgets
-- cjs
-	- atom-nodejs
-	- atom-mobile
-	- widgets-mobile
-	- widgets-wxapp
+1. 微信小程序的事件响应,微信小程序的组件、页面的初始化
+1. 数据会存放到当前页面的mm中
+1. 调用事件时如果有参数,参数可以在args中获取到
+1. app或页面中对应的事件
