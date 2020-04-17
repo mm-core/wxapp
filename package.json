@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/wxapp",
-	"version": "1.0.202004011848",
+	"version": "1.0.202004171036",
 	"description": "feidao framework for weixin app",
 	"scripts": {
 		"test": "tsc -w",
